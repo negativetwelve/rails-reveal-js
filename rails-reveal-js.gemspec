@@ -1,11 +1,11 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
+lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rails/reveal/js/version'
+require "reveal/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "rails-reveal-js"
-  spec.version       = Rails::Reveal::Js::VERSION
+  spec.version       = Reveal::VERSION
   spec.authors       = ["Mark Miyashita"]
   spec.email         = ["negativetwelve@gmail.com"]
   spec.summary       = %q{Gem to add Reveal.js to the Rails Asset Pipeline.}
